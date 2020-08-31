@@ -9897,6 +9897,13 @@ a.text-dark:hover, a.text-dark:focus {
   animation: jump .5s linear alternate infinite;
 }
 
+@font-face {
+  font-family: 'BodoniSvtyTwoITCTT-Book';
+  src: url("BodoniSvtyTwoITCTT-Book/BodoniSvtyTwoITCTT-Book.eot?#iefix") format("embedded-opentype"), url("BodoniSvtyTwoITCTT-Book/BodoniSvtyTwoITCTT-Book.woff") format("woff"), url("BodoniSvtyTwoITCTT-Book/BodoniSvtyTwoITCTT-Book.ttf") format("truetype"), url("BodoniSvtyTwoITCTT-Book/BodoniSvtyTwoITCTT-Book.svg#BodoniSvtyTwoITCTT-Book") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
 img {
   max-width: 100%;
 }
@@ -9908,6 +9915,41 @@ html {
 body {
   font-family: "Lato", sans-serif;
   font-weight: 300;
+}
+
+header .navbar-brand {
+  max-width: 60%;
+}
+
+header .navbar-toggler span {
+  display: block;
+  width: 30px;
+  height: 3px;
+  margin-bottom: 5px;
+  background-color: #D0B6B6;
+}
+
+header .navbar-toggler span:last-of-type {
+  margin-bottom: 0;
+}
+
+header .navbar-nav a {
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  font-weight: 400;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+header .navbar-nav a:hover, header .navbar-nav a.active {
+  border-bottom: 1px solid #ECD9D9;
+}
+
+@media (min-width: 768px) {
+  header .navbar-nav li {
+    margin-left: 78px;
+  }
 }
 
 /*# sourceMappingURL=theme.css.map */
