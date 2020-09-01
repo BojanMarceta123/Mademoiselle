@@ -9952,4 +9952,54 @@ header .navbar-nav a:hover, header .navbar-nav a.active {
   }
 }
 
+.lead-page-section {
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.lead-page-section .lead-section-title {
+  padding: 218px 0 269px;
+  font-size: 6rem;
+  letter-spacing: 2rem;
+  line-height: 8.4rem;
+  font-family: "Bodoni", sans-serif;
+  font-weight: 300;
+}
+
+.blog-section .blog-title {
+  font-size: 3rem;
+  color: #1E1E1E;
+  font-weight: 300;
+  font-family: "Bodoni", sans-serif;
+  letter-spacing: 0.5rem;
+  line-height: 4.5rem;
+}
+
+.blog-section .blog-title:after {
+  content: '';
+  height: 1px;
+  width: 7.4rem;
+  background-color: #ECD9D9;
+  display: block;
+  position: relative;
+  margin-top: 22px;
+  margin-bottom: 4.3rem;
+}
+
+.blog-section .blog-item .blog-caption {
+  background-color: #FFFFFF;
+  color: #1E1E1E;
+  left: 10px;
+  right: 10px;
+  margin-top: -57px;
+}
+
+.blog-section .blog-item .date-published {
+  font-size: 1.4rem;
+  font-style: italic;
+  letter-spacing: 1px;
+  line-height: 1.7rem;
+  font-family: "Bodoni", sans-serif;
+}
+
 /*# sourceMappingURL=theme.css.map */
