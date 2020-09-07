@@ -9994,6 +9994,10 @@ header .navbar-nav a:hover, header .navbar-nav a.active {
   font-weight: 300;
 }
 
+.lead-page-section .lead-section-title a {
+  color: #FFFFFF;
+}
+
 .blog-section .blog-item .blog-caption {
   background-color: #FFFFFF;
   color: #1E1E1E;
