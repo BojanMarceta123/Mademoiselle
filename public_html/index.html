@@ -28,7 +28,11 @@ and open the template in the editor.
         
         
         <!--CSS FILES-->
-        <link href="css/fonts/font.css" rel="stylesheet" type="text/css"/>
+        
+        <link href="css/owl.carousel.css" rel="stylesheet" type="text/css"/>
+        
+        <link href="css/owl.theme.default.css" rel="stylesheet" type="text/css"/>
+        <!--<link href="css/fonts/font.css" rel="stylesheet" type="text/css"/>-->
         <link href="css/theme.css" rel="stylesheet" type="text/css"/>
         
         
@@ -82,7 +86,7 @@ and open the template in the editor.
             
             <section class="blog-section mb-5">
                 <div class="container">
-                    <h2 class="blog-title text-uppercase mb-3">Stay Up with the Latest Beauty Trends</h2>
+                    <h2 class="text-uppercase mb-3">Stay Up with the Latest Beauty Trends</h2>
                     <div class="row">
                         <div class="col-12 col-sm-6 col-lg-4 mb-4 mb-lg-0">
                             <article class="blog-item text-center">
@@ -123,13 +127,13 @@ and open the template in the editor.
             
             <section class="services-section mb-5">
                 <div class="container">
-                    <h3 class="services-section-title text-uppercase mb-4">Our Services</h3>
+                    <h2 class="text-uppercase mb-4">Our Services</h2>
                     <div class="row justify-content-sm-center no-gutters">
-                        <div class="col-12 col-md-6">
+                        <div class="col-12 col-md-6 bg-secondary">
                             <article class="services-item">
-                                <h2 class="text-uppercase">
+                                <h3 class="text-uppercase">
                                     Lip augmentation Lip filling with hyaluronum
-                                </h2>
+                                </h3>
                                 <a href="#" class="text-uppercase btn btn-black border-black">Learn More</a>
                             </article>
                         </div>
@@ -144,19 +148,19 @@ and open the template in the editor.
                                 <img src="img/services02.png" alt=""/>
                             </figure>
                         </div>
-                        <div class="col-12 col-md-6">
+                        <div class="col-12 col-md-6 bg-light">
                             <article class="services-item-secondary">
-                                <h2 class="text-uppercase">
+                                <h3 class="text-uppercase">
                                     male and female haircut
-                                </h2>
+                                </h3>
                                 <a href="#" class="text-uppercase btn btn-black border-top-0 border-bottom-0">Learn More</a>
                             </article>
                         </div>
-                        <div class="col-12 col-md-6">
+                        <div class="col-12 col-md-6 bg-secondary">
                             <article class="services-item-third">
-                                <h2 class="text-uppercase">
+                                <h3 class="text-uppercase">
                                     Day and night makeup
-                                </h2>
+                                </h3>
                                 <a href="#" class="text-uppercase btn btn-black border-black">Learn More</a>
                             </article>
                         </div>
@@ -171,10 +175,10 @@ and open the template in the editor.
                             </figure>
                         </div>
                         <div class="col-12 col-md-6">
-                            <article class="services-item-fourth">
-                                <h2 class="text-uppercase">
+                            <article class="services-item-fourth bg-light">
+                                <h3 class="text-uppercase">
                                     Waxing with cold and warm wax
-                                </h2>
+                                </h3>
                                 <a href="#" class="text-uppercase btn btn-black border-top-0 border-bottom-0">Learn More</a>
                             </article>
                         </div>
@@ -184,9 +188,50 @@ and open the template in the editor.
                 </div><!--container-->
             </section><!--services section end-->
             
-            
+            <section class="team-section mb-5">
+                <div class="container">
+                    
+                    <h2 class="text-uppercase mb-4">Trust our professionals</h2>
+                    <!--posle team-slider stavljao sam owl-carousel, owl-theme, kopirao tri puta, ali mi se nista ne pokazuje -->
+                    <div class="team-slider">
+                        <div class="team-member border-light">
+                            <div class="row d-flex justify-content-center">
+                                <div class="col-12 col-sm-6 col-lg-5 mb-4 mb-sm-0 align-items-center">
+                                    <figure class="team-img">
+                                        <img src="img/team/team1.png" alt=""/>
+                                    </figure>
+                                </div>
+                                <div class="col-12 col-sm-6 col-lg-4 ">
+                                    <article class="team-member-content">
+                                        <h4 class="team-member-name text-uppercase mb-3">Vera Valdez</h4>
+                                        <p class="team-member-info">
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                            when an unknown printer took a galley of type and scrambled it to make a type
+                                            specimen book. It has survived not only five centuries, but also the leap into
+                                            electronic typesetting, remaining essentially unchanged.
+                                        </p>
+                                    </article>
+                                </div>
+                            </div><!--row end-->
+
+                    </div><!--team member end-->
+                    
+                    </div><!--team slider end-->
+                </div><!--container end-->
+            </section><!--team-section end-->
         </main><!--main end-->
-        
+        <footer class="bg-white">
+            <div class="container text-center">
+                <nav class="social mb-4">
+                    <a class="fab fa-facebook-f"></a>
+                    <a class="fab fa-twitter"></a>
+                    <a class="fab fa-instagram"></a>
+                </nav>
+                <p class="copyright">Copyright &copy; 2019 <a href="#">Mademoiselle</a></p>
+            </div>
+            
+        </footer><!--footer end-->
         
         
         
@@ -197,6 +242,9 @@ and open the template in the editor.
         
         <!--font awesome icons-->
         <script src="https://kit.fontawesome.com/85bd05dd45.js"></script>
+        
+        <script src="js/owl.carousel.min.js" type="text/javascript"></script>
+        
         <script src="js/main.js" type="text/javascript"></script>
     </body>
 </html>

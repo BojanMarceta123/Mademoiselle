@@ -1,0 +1,21 @@
+.team-section{
+    padding: 54px 0 67px;
+    .team-member{
+        border: 1px solid #ECD9D9;
+        .team-img{
+            margin-right: 95px;
+            padding: 54px 0;
+        }
+        .team-member-content{
+
+            font-size: 1.6rem;
+            line-height: 2.3rem;
+            letter-spacing: 0;
+            .team-member-name{
+                padding-top: 85px;
+            }
+        }
+    }//team-memeber-end
+}//team-section-end
+
+

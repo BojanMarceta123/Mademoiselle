@@ -1,32 +1,13 @@
 
 .services-section{
     padding: 56px 0;
-    .services-section-title{
-        font-size: 3rem;
-        color: $gray-900;
-        font-weight: $font-weight-light;
-        font-family: $bodoni;
-        letter-spacing: 0.5rem;
-        line-height: 4.5rem;
-
-        &:after{
-            content: '';
-            height: 1px;
-            width: 7.4rem;
-            background-color: #ECD9D9;
-            display: block;
-            position: relative;
-            margin-top: 22px;
-            margin-bottom: 4.3rem;
-        }
-    }
+   
     .services-item{
         display: block;
-        padding: 143px 95px 102px;
-        background-color: #F5F5F5;
+        padding: 144px 95px 100px;
         background-size: cover;
         
-        h2{
+        h3{
             font-family: $lato;
             font-size: 3.6rem;
             letter-spacing: 0;
@@ -39,10 +20,9 @@
     }//service-item end
     .services-item-secondary{
         display: block;
-        padding: 143px 95px 146px;
-        background-color: #ECD9D9;
+        padding: 143px 95px 135px;
         background-size: cover;
-       h2{
+       h3{
             font-family: $lato;
             font-size: 3.6rem;
             letter-spacing: 0;
@@ -57,9 +37,8 @@
     .services-item-third{
         display: block;
         padding: 144px 95px 154px;
-        background-color: #F5F5F5;
         background-size: cover;
-       h2{
+       h3{
             font-family: $lato;
             font-size: 3.6rem;
             letter-spacing: 0;
@@ -73,10 +52,9 @@
     }//service-item-third end
      .services-item-fourth{
         display: block;
-        padding: 144px 95px 156px;
-        background-color: #ECD9D9;
+        padding: 144px 95px 157px;
         background-size: cover;
-       h2{
+       h3{
             font-family: $lato;
             font-size: 3.6rem;
             letter-spacing: 0;

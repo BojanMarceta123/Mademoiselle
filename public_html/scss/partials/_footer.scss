@@ -1,0 +1,25 @@
+$socil-color:#ECD9D9;
+$footer-text:#1E1E1E;
+footer{
+    padding: 49px 0 25px;
+    .social{
+        a{
+            color: $socil-color;
+            font-size: 2.5rem;
+            margin: 0 3px;
+            transition: 1s linear;
+                &:hover{
+                transform:rotate(360deg);
+            }
+        }
+    }//social end
+    .copyright{
+        color: $footer-text;
+        font-size: 1.2rem;
+       font-weight: $font-weight-light;
+       line-height: 4.1rem;
+       a{
+           color: $footer-text;
+       }
+    }
+}
