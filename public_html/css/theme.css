@@ -10221,4 +10221,31 @@ footer .copyright a {
   line-height: 2.6rem;
 }
 
+.blog-page-section {
+  padding: 88px 0 17px;
+}
+
+.blog-page-section .blog-item .blog-caption {
+  background-color: #FFFFFF;
+  color: #1E1E1E;
+  left: 10px;
+  right: 10px;
+  margin-top: -57px;
+  padding-bottom: 40px;
+}
+
+.blog-page-section .blog-item .blog-caption .blog-item-title {
+  font-size: 1.6rem;
+  letter-spacing: 0;
+  line-height: 2.4rem;
+}
+
+.blog-page-section .blog-item .date-published {
+  font-size: 1.4rem;
+  font-style: italic;
+  letter-spacing: 1px;
+  line-height: 1.7rem;
+  font-family: "Bodoni", sans-serif;
+}
+
 /*# sourceMappingURL=theme.css.map */
