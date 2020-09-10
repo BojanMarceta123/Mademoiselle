@@ -1892,7 +1892,7 @@ pre code {
 }
 
 .form-control::placeholder {
-  color: #6c757d;
+  color: rgba(88, 108, 136, 0.8);
   opacity: 1;
 }
 
@@ -7459,6 +7459,10 @@ button.bg-dark:focus {
   width: 40% !important;
 }
 
+.w-65 {
+  width: 65% !important;
+}
+
 .h-25 {
   height: 25% !important;
 }
@@ -7481,6 +7485,10 @@ button.bg-dark:focus {
 
 .h-40 {
   height: 40% !important;
+}
+
+.h-65 {
+  height: 65% !important;
 }
 
 .mw-100 {
@@ -10308,6 +10316,66 @@ footer .copyright a {
   line-height: 2.7rem;
   font-size: 1.6rem;
   font-family: "Bodoni", sans-serif;
+}
+
+.contact-section {
+  padding: 102px 0 104px;
+  background-position: right 102px;
+  background-size: auto 65%;
+  background-repeat: no-repeat;
+}
+
+.contact-section h2 {
+  font-size: 3rem;
+}
+
+.contact-section h2:after {
+  content: '';
+  height: 0;
+  width: 0;
+}
+
+.contact-section .form-control {
+  background-color: rgba(37, 61, 97, 0.02);
+  border: none;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 10px;
+}
+
+.contact-section textarea.form-control {
+  height: 150px;
+  resize: none;
+}
+
+.contact-section .error-msg {
+  color: #dc3545;
+  font-size: 1.3rem;
+}
+
+@media (min-width: 320px) {
+  .contact-section .form-control {
+    background-color: white;
+  }
+}
+
+@media (min-width: 992px) {
+  .contact-section .form-control {
+    background-color: rgba(37, 61, 97, 0.02);
+  }
+}
+
+.info-section {
+  background-color: #ECD9D9;
+  padding: 63px 0 60px;
+}
+
+.info-section p, .info-section a {
+  font-size: 2.4rem;
+  line-height: 2.5rem;
+  font-weight: 300;
+  letter-spacing: 0;
+  color: #1E1E1E;
 }
 
 /*# sourceMappingURL=theme.css.map */

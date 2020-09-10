@@ -1,0 +1,45 @@
+.contact-section{
+    padding: 102px 0 104px;
+    background-position: right 102px;
+    background-size:auto 65%;
+    background-repeat: no-repeat;
+    h2{
+        font-size: 3rem;
+        &:after{
+            content: '';
+            height: 0;
+            width: 0;
+        }
+    }
+    .form-control{
+        background-color: rgba(#253D61, 0.02);
+        border:none;
+        height: 50px;
+        line-height: 50px;
+        padding: 0 10px;
+            
+    }
+    textarea.form-control{
+        height: 150px;
+        resize: none;
+    }
+    .error-msg{
+        color: $danger;
+        font-size: 1.3rem;
+    }
+}
+@media(min-width:320px){
+    .contact-section{
+        .form-control{
+            background-color: white;
+        }
+    }
+}
+@media(min-width:992px){
+    .contact-section{
+        .form-control{
+            background-color: rgba(#253D61, 0.02);
+        }
+    }
+}
+
