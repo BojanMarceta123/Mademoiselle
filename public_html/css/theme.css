@@ -10378,4 +10378,22 @@ footer .copyright a {
   color: #1E1E1E;
 }
 
+.eror-page-section {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.eror-page-section .eror-item {
+  padding: 278px 0;
+}
+
+.eror-page-section .eror-item .eror-section-title {
+  color: #FFFFFF;
+  font-size: 6rem;
+  letter-spacing: 2rem;
+  line-height: 8.4rem;
+  font-family: "Bodoni", sans-serif;
+  font-weight: 300;
+}
+
 /*# sourceMappingURL=theme.css.map */

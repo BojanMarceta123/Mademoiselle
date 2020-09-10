@@ -1,0 +1,17 @@
+$eror-text:#FFFFFF;
+.eror-page-section{
+   background-repeat: no-repeat;
+   background-size: cover;
+   .eror-item{
+       padding: 278px 0;
+       .eror-section-title{
+        color:$eror-text;
+        font-size: 6rem;
+        letter-spacing: 2rem;
+        line-height: 8.4rem;
+        font-family: $bodoni;
+        font-weight: $font-weight-light; 
+       }
+        
+        }
+}//.eror-page-section done
